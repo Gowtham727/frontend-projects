@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body class="body">
+    <div>
+      <h1 class="h1">task manager</h1>
+      </div>
+      <div>
+        <input   class="input" type="text" placeholder="add task...." id="input">
+      </div>
+      <div>
+        <button  class="btn" onclick="addtask(event)">add</button>
+      </div>
+      <div class="tt">
+        <table  id="table" class="table" border="1px" cellpadding="4px">
+          <colgroup>
+            <col style="width: 200px; height: 50px;">
+            <col style="width: 200px;">
+            <col style="width: 200px;">
+        </colgroup>
+       
+            <thead  style="height: 30px;">
+                <th>task</th>
+                <th>delete</th>
+                <th>status</th>
+            </thead>
+
+           <tbody id="tbody" style="height: 60px;">
+
+           </tbody>
+        </table>
+          
+      </div>
+     <script src="script.js"></script>
+</body>
+</html>

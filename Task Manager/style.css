@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    max-width: 100%;
+    min-width: 400px;
+    max-height: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-image: url(task.jpg);
+    background-size: cover;
+}
+.table{
+    border-collapse: collapse;
+     visibility: hidden;
+     box-shadow: 5px 5px 10px rgba(36, 34, 34,.7);
+     margin-top: 200px;
+     justify-content: center;
+     min-width: 320px;
+    position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 5px;
+
+     
+}
+.input{
+      position: absolute;
+      top: 40%;
+      border-radius: 3px;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      border-color: black;
+       transition: all 0.3s ease;
+
+       line-height: 40px;
+       padding: 4px;
+       border-radius: 30px;
+    
+    
+
+}
+.table tr:hover{
+      background-color: white; /* light grey */
+    cursor: pointer;
+   
+}
+.btn{
+    position:absolute;
+    top: 35%;
+    width: 80px;
+    height: 30px;   
+    left: 65%;
+    text-transform: capitalize;
+    background-color:  #4facfe;
+    border-radius: 7px;
+}
+.btn:hover{
+     background: linear-gradient(to right, #4facfe, #00f2fe);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  
+  
+}
+.input:hover{
+      box-shadow: 5px 10px 20px rgba(230, 224, 224, 0.9);
+      cursor: pointer;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease;
+      width: 350px;
+      height: 35px;
+      color: black;
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.table tr:nth-last-child(odd){
+    background-color:rgba(63, 60, 60,.2) ;
+
+   
+    color:black;
+}
+
+.tt{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.table td{
+line-height: 30px;
+padding: 10px;
+font-size: 18px;
+
+}
+.h1{
+     font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+
+ }
+.table th{
+    text-transform: capitalize;
+    text-align: left;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    opacity: 0.8;
+
+
+}
+.table button{
+    outline: none;
+    border-radius: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;    
+}

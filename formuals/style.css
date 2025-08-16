@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+ 
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.formulas{
+    margin: 50px auto; 
+}
+
+.table2 {
+   width: 50%;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 370px;
+    box-shadow: 5px 10px 10px rgba(34, 13, 13,0.6);
+ 
+}
+.table2 td{
+    height: 20px;
+}
+
+.table {
+   width: 50%;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 70%;
+    box-shadow: 5px 10px 10px rgba(34, 13, 13,0.6);
+ 
+}
+.line{
+    width: 70%;
+    border: 3px;
+    border-color: black;
+    border-width: 4px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 310px;
+     left: 50%;
+    transform: translate(-50%);
+}
+.table tr:nth-child(even) {
+    background-color: #e6f0ff; /* Light blue for alternate rows */
+}
+.table:hover{
+    cursor: pointer;
+}
+.table tr:nth-child(even)  :hover{
+     background: linear-gradient(to right, #e6f0ff, #8a9fdd);
+
+}
+.table2 tr:nth-child(even) {
+    background-color: #e6f0ff; /* Light blue for alternate rows */
+}
+.table2:hover{
+    cursor: pointer;
+   
+
+}
+.table2 tr:nth-child(even)  :hover{
+     background: linear-gradient(to right, #e6f0ff, #8a9fdd);
+
+}
+
+
